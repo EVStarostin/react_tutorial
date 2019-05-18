@@ -48,7 +48,7 @@ class Game extends React.Component {
             const desc = move ? 
                 'Перейти к ходу #' + move :
                 'К началу игры';
-            return(
+            return (
                 <li key={move}>
                     <button onClick={() => this.jumpTo(move)}>{desc}</button>
                 </li>
